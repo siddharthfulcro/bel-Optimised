@@ -1,0 +1,122 @@
+.icons_section{
+    text-align: center;
+}
+
+.icons_section.owl-carousel .owl-item img,
+.icons_section .item img{
+    width: 60px;
+    margin: auto;
+}
+
+.icons_section .item p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.icons_section > .owl-nav{
+    display: none;
+}
+
+.icons_section .owl-dots, .icons_section .owl-nav {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.icons_section .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+}
+
+.icons_section .owl-dots .owl-dot span {
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+    border: 1px solid #c9c9c9;
+    -webkit-backface-visibility: visible;
+    border-radius: 40px;
+}
+
+.icons_section .owl-dots .owl-dot.active span, .icons_section > .owl-dots .owl-dot:hover span {
+    border: 1px solid transparent;
+    background: #0984e3;
+}
+
+/***********************************************/
+
+@media only screen and (min-device-width: 1536px) and (max-device-width: 2560px) {
+    
+    .icons_section.owl-carousel .owl-item img, .icons_section .item img {
+        width: 100px;
+    }
+    
+    .icons_section .item p {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    
+    .icons_section .owl-dots .owl-dot span {
+        width: 20px;
+        height: 20px;
+        margin: 0 15px;
+    }
+    
+}
+
+@media only screen and (max-width:768px) {
+    
+    .icons_section .owl-dots, .icons_section .owl-nav {
+        padding: 20px 0 0;
+    }
+    
+}
+
+@media only screen and (max-width:767px) {
+    
+    .icons_section {
+        padding: 20px 0;
+    }
+    
+    .icons_section.owl-carousel .owl-item img, .icons_section .item img {
+        width: 50px;
+    }
+    
+    .icons_section .item p {
+        font-size: 14px;
+    }
+    
+    .icons_section .owl-dots, .icons_section .owl-nav {
+        padding: 15px 0 0;
+    }
+    
+    .icons_section .owl-dots .owl-dot span {
+        width: 12px;
+        height: 12px;
+        margin: 0 8px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

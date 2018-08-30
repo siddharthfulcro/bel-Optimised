@@ -1,0 +1,58 @@
+footer{}
+footer .marginbottom{margin-bottom:30px;}
+footer .footer-section{padding:5%;border-top:5px solid #f9f9f9;border-right:5px solid #f9f9f9;border-bottom:15px solid #f9f9f9;border-left:5px solid #f9f9f9;}
+footer .footer-section h3{margin:10px 0 20px 0;font-weight:500;font-size:22px;}
+footer .footer-section h4{margin:10px 0 20px 0;font-weight:400;font-size:22px;}
+footer .footer-section ul li a{padding:10px 5px 10px 0;}
+footer .footer-section ul.sublink{padding-left:15px;}
+ul.sublink li a::before{display:inline-block;content:"";width:5px;margin:0 5px 0 -15px;transform:translateY(-4px);height:2px;background:#000;}
+footer .footer-section .sublink li a{padding:10px 0;font-weight:300;font-size:14px;}
+footer .footer-section .line{margin:30px 0;}
+footer .footer-section .line hr{background:#6c6c6c;}
+footer .social-payment{text-align:right;margin-top:10px;}
+footer .social-payment .payment img{height:60px;padding:0 0 30px 5px;cursor:pointer;}
+footer .social-payment .social img{width:50px;padding:0 0 0 15px;cursor:pointer;}
+.newsletter{position:relative;}
+.newsletter input{width:100%;padding:20px;border:1px solid #6c6c6c;border-radius:40px;}
+.newsletter a{position:absolute;top:0;bottom:0;right:8px;width:45px;height:46px;margin:auto;}
+.copyright{padding:40px 0;}
+.copyright p{text-align:center;}
+.copyright p a{color:#414141;}
+@media only screen and (min-device-width:1536px) and (max-device-width:2560px){footer .footer-section h3{font-size:28px;}
+footer .footer-section ul li a{font-size:18px;}
+}
+@media only screen and (max-width:1365px){footer .footer-section{padding:20px;}
+footer .footer-section h3{font-size:18px;}
+footer .footer-section h4{font-size:18px;}
+footer .footer-section ul li a{font-size:14px;}
+footer .footer-section .sublink li a{font-size:13px;}
+}
+@media only screen and (max-width:1024px){}
+@media only screen and (max-width:991px){footer .marginbottom{margin-bottom:15px;}
+footer .footer-section h3{font-size:15px;}
+footer .footer-section h4{font-size:15px;}
+footer .footer-section ul li a{font-size:13px;padding:7px 0;}
+footer .footer-section .sublink li a{font-size:12px;}
+}
+@media only screen and (max-width:767px){footer .footer-section{border:none;}
+footer .marginbottom{margin-bottom:0px;}
+footer .footer-section h3{margin:0;margin-bottom:15px;font-size:18px;cursor:pointer;}
+footer .footer-section h4{margin:0;margin-bottom:15px;font-size:18px;}
+footer .footer-section ul li a{font-size:15px;padding:7px 0;}
+footer .footer-section .sublink li a{font-size:13px;}
+footer .footer-section ul{margin-bottom:15px;}
+.arrowup, .arrowdown{display:inline-block;float:right;width:25px;height:25px;line-height:15px;text-align:center;border-radius:50%;}
+.arrowdown{padding-top:3px;}
+.arrowup:after{content:'';display:inline-block;width:8px;height:8px;border-top:2px solid #414141;border-right:2px solid #414141;-moz-transform:rotate(135deg);-webkit-transform:rotate(135deg);transform:rotate(135deg);}
+.arrowdown:after{content:'';display:inline-block;width:8px;height:8px;border-top:2px solid #414141;border-right:2px solid #414141;-moz-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);transform:rotate(-45deg);}
+footer .social-payment{text-align:left;}
+footer .social-payment .payment img{height:50px;padding:0 0 15px 3px;}
+.payment{margin:auto;width:100%;text-align:center;}
+footer .social-payment .social a{width:32%;padding:5px 5px 0 0;}
+footer .social-payment .social{margin:auto;width:100%;text-align:center;}
+footer .social-payment .social img{width:40px;padding:15px 5px 0 0;}
+.newsletter a{width:35px;height:36px;}
+.newsletter input{padding:12px 20px;}
+.copyright{padding:20px 0;}
+.copyright p{font-size:14px;}
+}

@@ -1,0 +1,82 @@
+.why-buy{
+	
+}
+.why-buy .buyitme{
+	text-align: center;
+	padding:50px 40px;
+	border:1px solid #dad8d8;
+	border-left: none;
+}
+
+.why-buy .buyitme img{
+    width: 80px;
+}
+
+.why-buy .buyitme:first-child{
+	border-left:1px solid #dad8d8;
+}
+.why-buy .buyitme h4{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin: 10px 0;
+}
+
+.why-buy .buyitme p{
+    font-size: 15px;
+}
+
+
+
+
+/*media*/
+
+@media only screen and (min-device-width: 1536px) and (max-device-width: 2560px) {
+    
+    .why-buy .buyitme img{
+        width: auto;
+    }
+    
+    .why-buy .buyitme h4{
+        font-size: 22px;
+    }
+    
+    .why-buy .buyitme p{
+        font-size: 18px;
+    }
+    
+}
+
+@media only screen and (max-width:1024px) {
+	.why-buy .buyitme{
+		padding: 30px 20px;
+	}
+
+}
+@media only screen and (max-width:991px) {
+	.why-buy .buyitme{
+		padding: 20px 10px;
+	}
+	.why-buy .buyitme h4{
+		font-size: 15px;
+	}
+	.why-buy .buyitme p{
+		font-size: 15px;
+	}
+}
+
+
+@media only screen and (max-width:767px) {
+	.container{
+		padding: 0;
+	}
+	.why-buy .buyitme:first-child{
+		border: none;
+		border-bottom:1px solid #dad8d8;
+	}
+	.why-buy .buyitme{
+		border: none;
+		border-bottom:1px solid #dad8d8;
+		padding: 30px 10px;
+	}
+}
